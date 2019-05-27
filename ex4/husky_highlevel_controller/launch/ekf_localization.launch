@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <rosparam param="/use_sim_time">true</rosparam>
+
+  <node pkg="rviz" type="rviz" name="rviz" />
+   
+  <include file="$(find husky_gazebo)/launch/husky_empty_world.launch">
+        <arg name="world_name" value="$(find husky_highlevel_controller)/worlds/singlePillar.world"/>
+        <arg name="laser_enabled" value="true"/>
+	<rosparam command="load" file="$(find husky_highlevel_controller)/config/localization.yaml" />
+  </include>
+
+</launch>
+
+
+
