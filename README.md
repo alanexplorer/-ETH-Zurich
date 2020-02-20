@@ -39,6 +39,6 @@ My solutions to the exercises presented in the [Programming for Robotics - ROS ]
    ```
   ### Experiment with husky_highlevel_controller:
   ```
-    $ roslaunch husky_highlevel_controller husky_highlevel_controller.launch
+    $ roslaunch husky_highlevel_controller husky.launch
   ```
   
