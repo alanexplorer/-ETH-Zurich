@@ -1,3 +1,0 @@
-husky_subscriber_topic: /scan
-husky_subscriber_queue_size: 1
-husky_p_gain: 0.8
